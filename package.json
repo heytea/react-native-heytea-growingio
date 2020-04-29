@@ -1,0 +1,20 @@
+
+{
+  "name": "react-native-heytea-growingio",
+  "version": "1.0.0",
+  "description": "growingIO",
+  "main": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heytea.com/react-native-plugs/react-native-heytea-growingio.git"
+  },
+  "keywords": [
+    "react-native",
+    "growingIO"
+  ],
+  "author": "heytea",
+  "license": "MIT"
+}
