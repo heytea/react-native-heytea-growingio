@@ -1,7 +1,7 @@
 
 {
-  "name": "@heytea/react-native-growingio",
-  "version": "1.0.0",
+  "name": "@heytea/react-native-heytea-growingio",
+  "version": "1.0.2",
   "description": "growingIO",
   "main": "src/index",
   "files": [

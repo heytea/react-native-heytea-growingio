@@ -43,6 +43,17 @@ export default class HeyteaGrowingIO {
         GrowingIO.setVisitor(params)
     };
 
+
+    //页面
+    static setPageVariable(pageName, params) {
+        GrowingIO.setPageVariable(params)
+    };
+
+    static setUser(params) {};
+
 }
+
+
+module.exports = HeyteaGrowingIO
 
 

@@ -136,6 +136,22 @@ public class HeyteaGrowingIOTrackModule extends ReactContextBaseJavaModule imple
         });
     }
 
+
+
+    @ReactMethod
+    public void setPageVariable(final String pageName, final ReadableMap pageVariable) {
+        ThreadUtils.postOnUiThread(new Runnable() {
+            public void run() {
+                try {
+                    GrowingIO.getInstance().setPageVariable(pageName,RnUtils.convertMapToJson(pageVariable));
+                } catch (JSONException var2) {
+                    Log.e("GIO.TrackModule", "setPageVariable:json格式解析错误");
+                }
+
+            }
+        });
+    }
+
     public void onHostResume() {
     }
 

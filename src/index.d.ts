@@ -1,4 +1,4 @@
-declare module 'react-native-heytea-growingio' {
+declare module '@heytea/react-native-heytea-growingio' {
     export function track(eventId: string, eventLevelVariable: object): void;
 
     export function trackWithNumber(eventId: string, number: number, eventLevelVariable: object): void;
@@ -11,6 +11,10 @@ declare module 'react-native-heytea-growingio' {
 
     export function clearUserId(): void;
 
-    export function setVisitor(readableMap: object):void;
+    export function setVisitor(readableMap: object): void;
+
+    export function setPageVariable(pageName, params): void;
+
+    export function setUser(params): void;
 
 }
