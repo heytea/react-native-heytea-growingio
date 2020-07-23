@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency 'GrowingCoreKit', '2.8.13'
+  s.dependency 'GrowingAutoTrackKit'
 end
